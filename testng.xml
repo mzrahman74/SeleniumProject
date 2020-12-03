@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="SeleniumProject">
+        <parameter name="browser" value="firefox"/>
+            <parameter name="url"  value="https://the-internet.herokuapp.com/"/>
+        <classes>
+            <class name="org.Java.spice.windows">
+                <methods>
+                    <include name="child"/>
+                </methods>
+            </class> <!-- org.Java.spice.windows -->
+        </classes>
+    </test> <!-- SeleniumProject -->
+</suite> <!-- Default Suite -->
